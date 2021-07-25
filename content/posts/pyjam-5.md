@@ -17,7 +17,7 @@ Before I started coding, I put together a very simple storyboard to understnd wh
 
 Based on the storybaord, I created a module for each screen, which will handle the draw() (updateing the view screen) for itself. 
 
-Then I started codign it all together into a State Management class:
+Then I started coding it all together into a State Management class:
 ```python
 class GameState:
     def __init__(self, globals):
@@ -48,6 +48,6 @@ class GameState:
         return self.view[self.currentScreen]()
 
 ```
-This code is what I put together to manage all the screens, in a single Game State to handle the current screen and navigating between.
+This code is what I put together to manage all the screens together in a single Game State. This handles the rendering the current screen and navigating between screens.
 
 Aaron.
