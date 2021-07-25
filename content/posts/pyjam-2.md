@@ -8,14 +8,14 @@ The theme for the Pygame Community Summer Team Jam has been announced - "Old Gam
 
 We got together over a live stream to ideate. We're all fans of Halloween Harry / Alien Carnage so thought it'd be cool to explore how we could create a similar game using the same mechanics and themes but with a twist.
 
-![image info](./images/hharry00.jpg) 
-![image info](./images/hharry01.jpg)
+![image info](https://devshed-blog-images.s3.ap-southeast-2.amazonaws.com/hharry00.jpg) 
+![image info](https://devshed-blog-images.s3.ap-southeast-2.amazonaws.com/hharry01.jpg)
 
 We like the fact you have a jetpack, flamethrower and missiles in the game, as well as the fact it was about exploring and finding secrets to progress to the next level
 
 Here's our ideation mindmap:
 
-![image info](./images/ideation.png)
+![image info](https://devshed-blog-images.s3.ap-southeast-2.amazonaws.com/ideation.png)
 
 We're leaning towards an time travel western spin on Halloween Harry / Alien Carnage with some unique weapons for that time. Let's see how we go!
 
