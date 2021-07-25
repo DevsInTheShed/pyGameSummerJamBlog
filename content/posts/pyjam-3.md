@@ -1,6 +1,6 @@
 ---
 title: "PyGame Group collision"
-date: 2021-07-25T5:02:38+10:00
+date: 2021-07-25T17:02:38+10:00
 draft: false
 ---
 
