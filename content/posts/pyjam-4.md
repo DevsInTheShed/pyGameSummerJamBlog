@@ -25,3 +25,5 @@ Lastly, we wanted to make the to add a bit more detail around the character grip
 ![image info](https://devshed-blog-images.s3.ap-southeast-2.amazonaws.com/player_04.JPG) 
 
 There you have it! Next stop is working out how to animate him :)
+
+Matt
