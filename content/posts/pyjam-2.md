@@ -28,3 +28,5 @@ Wish us luck!
 Find out more about the Pygame Community Summer Team Jam: https://itch.io/jam/pygame-community-summer-team-jam
 
 Join the Pygame Discord to see what other teams are working on and chat with the wider Pygame community: https://discordservers.com/server/772505616680878080
+
+Matt
