@@ -1,6 +1,6 @@
 ---
 title: "Music Idea 1"
-date: 2021-07-26T17:02:50+10:00
+date: 2021-07-26T07:02:50+10:00
 draft: false
 ---
 
