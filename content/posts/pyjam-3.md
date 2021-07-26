@@ -4,7 +4,7 @@ date: 2021-07-25T17:02:38+10:00
 draft: false
 ---
 
-Here is a little bit of an update, while Aaron has been busy refactoring I tried to at least get the "block" Western Harry to shoot bullets ( again blocks ) into block enemies.
+Here is a little bit of an update, while Aaron has been busy refactoring I tried to at least get the "block" Western Defender to shoot bullets ( again blocks ) into block enemies.
 
 Here is a little clip ( click to play ):
 
