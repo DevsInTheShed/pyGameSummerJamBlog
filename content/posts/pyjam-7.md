@@ -35,4 +35,4 @@ Also just so you can see what a weapon class does, its pretty simple, it just ha
 Thats it for me tonight!! basic refactor and scaffold is done!
 Next I'll move onto the stage HUD, to see the player health, ammom current weapon etc.
 
-- Aaron.
+Aaron.
