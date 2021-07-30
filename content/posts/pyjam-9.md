@@ -56,4 +56,61 @@ def update(self):
 
 I'm not completely happy with how the collision is currenly working, as personaly I would prefer the collision for the character be handled on the character not in the world, so I may look at raising a custom pygame.event to signal the colission and move the collision logic to the character class.  
 
+
+Scrolling in the world was easy to implement. 
+I added an update overide on the Tile class (Tile inherits from Sprite and all the differnt tile types inherit from Tile), which took a scroll amount and incremented the tiles rect.x value:
+
+```python
+class Tile(pygame.sprite.Sprite):
+    def __init__(self, img, x ,y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = img
+        self.rect = self.image.get_rect()
+        self.rect.midtop = (x + TileSize//2, y + (TileSize - self.image.get_height()))
+
+
+    def update(self, scroll=0):
+        self.rect.x += scroll
+```
+
+The actualy value to scroll by is taken from the player movement returning the oposote of the player delta x (change in x coordinate)
+
+```python
+def move(self, move_left, move_right, scroll, length):
+    super().move(move_left, move_right)
+
+    #handle screen scroll on player
+    if (self.rect.right > SCREEN.width - ScrollThreashold and scroll < (length * TileSize) - SCREEN.width) \
+        or (self.rect.left < ScrollThreashold and scroll > abs(self.delta_x)):
+        self.rect.x -= self.delta_x
+        return -self.delta_x
+    else:
+        return 0
+```
+
+move returns the delta x, and that delta is handed to the world draw method, to update the x coordinate of each of the tiles in their update method.
+
+```python
+def draw(self, scroll=0):
+    self.update()
+
+    self.obstacles.update(scroll)
+    self.obstacles.draw(ViewScreen)
+
+
+    self.decorators.update(scroll)
+    self.decorators.draw(ViewScreen)
+
+    self.collectables.update(scroll)
+    self.collectables.draw(ViewScreen)
+
+    self.water.update(scroll)
+    self.water.draw(ViewScreen)
+    
+    for enemy in self.enemies:
+        enemy.draw(scroll)
+```
+
+and its as simple as that... now the level will scroll in the oposite direction to the player.
+
 Aaron.
