@@ -10,7 +10,12 @@ Western Defender code and assets repo: https://github.com/DevsInTheShed/pyGameJa
 
 Pygame Jam submission link: https://itch.io/jam/pygame-community-summer-team-jam/rate/1145324
 
-You can play it via running the python code and following these steps till the binaries are up:
+![image info](https://pygamesummerjam.devsintheshed.com/images/pygamejamsubmission.png) 
+
+You can play it via running the python code on Linux/Mac/Windows and following these steps till the binaries are up:
+
+* Make sure to have Python 3.9.6 or higher installed (older versions may work but we haven't tested and Python 3.9 had a nice performance bump)
+
 
 * Install the required packages:
     ```bash 
@@ -23,9 +28,7 @@ You can play it via running the python code and following these steps till the b
 
 Below is a small taste:
 
-![image info](https://pygamesummerjam.devsintheshed.com/images/wdefender.png) 
-
-![image info](https://pygamesummerjam.devsintheshed.com/images/pygamejamsubmission.png) 
+![image info](https://pygamesummerjam.devsintheshed.com/images/wdefender.png)
 
 ![image info](https://pygamesummerjam.devsintheshed.com/images/cutscene_01.png)
 
