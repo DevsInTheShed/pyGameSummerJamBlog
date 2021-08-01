@@ -8,14 +8,15 @@ We'll do a Youtube video later but the project is submitted. Had trouble creatin
 
 Western Defender code and assets repo: https://github.com/DevsInTheShed/pyGameJam2021
 
-Pygame Jam submission link: https://itch.io/jam/pygame-community-summer-team-jam/rate/1145324
+Pygame Jam submission link (please vote for our project!): https://itch.io/jam/pygame-community-summer-team-jam/rate/1145324
 
 ![image info](https://pygamesummerjam.devsintheshed.com/images/pygamejamsubmission.png) 
+
+Trailer: https://youtu.be/dYuoTz2HiRA
 
 You can play it via running the python code on Linux/Mac/Windows and following these steps till the binaries are up:
 
 * Make sure to have Python 3.9.6 or higher installed (older versions may work but we haven't tested and Python 3.9 had a nice performance bump)
-
 
 * Install the required packages:
     ```bash 
